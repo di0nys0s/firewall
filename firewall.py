@@ -3,6 +3,8 @@
 """
 firewal.py will scan the logfile for authentification tryout on ssh port 
 and add it to arno firewall custom rules 
+Any try from other contry then CA or US will be blocked and a question will be asked for 
+CA or US request
 """
 import re
 import sys
